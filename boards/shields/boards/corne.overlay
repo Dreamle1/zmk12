@@ -1,3 +1,5 @@
+#include <dt-bindings/zmk/backlight.h> 
+
 &pinctrl {
     // Other pinctrl definitions for other hardware
     pwm0_default: pwm0_default {
