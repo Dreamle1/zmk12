@@ -3,11 +3,11 @@
         zmk,backlight = &backlight;
     };
 
-    backlight: backlight {
-        compatible = "pwm-backlight";
-        pwms = <&pwm0 0 50000>;
-        brightness-levels = <0 4 8 16 32 64 128 255>;
-        default-brightness-level = <4>;
+    backlight: pwmleds {
+        compatible = "pwm-leds";
+        pwm_led_0 {
+            pwms = <&pwm0 0 PWM_MSEC(10) PWM_POLARITY_NORMAL>;
+        };
     };
 };
 

@@ -10,9 +10,23 @@
 #include <dt-bindings/zmk/backlight.h> 
 
 &led_strip {
-        chain-length=<6>;
+        chain-length=<12>;
+};
+
+&pwm0 {
+    status = "okay";
 };
 / {
+        chosen {
+        zmk,backlight = &backlight;
+    };
+
+    backlight: pwmleds {
+        compatible = "pwm-leds";
+        pwm_led_0 {
+            pwms = <&pwm0 0 PWM_MSEC(10) PWM_POLARITY_NORMAL>;
+        };
+    };
         keymap {
                 compatible = "zmk,keymap";
 
