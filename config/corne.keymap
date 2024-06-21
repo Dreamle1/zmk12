@@ -29,7 +29,7 @@
   };
 };
 &led_strip {
-        chain-length=<54>;
+        chain-length=<12>;
 };
 
 &pwm0 {
