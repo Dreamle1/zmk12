@@ -26,7 +26,7 @@
         spi-zero-frame = <0x40>; /* make sure to configure this properly for your SOC */
         color-mapping = <LED_COLOR_ID_GREEN
                           LED_COLOR_ID_RED
-                          LED_COLOR_ID_BLU>;
+                          LED_COLOR_ID_BLUE>;
     };
 };
 
