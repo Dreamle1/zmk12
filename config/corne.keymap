@@ -96,10 +96,10 @@ LED_COLOR_ID_GREEN
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp F1     &kp F2        &kp F3          &kp F4          &kp F5           &kp F6    &kp F7      &kp F8        &kp F9           &kp F10            &kp F11  &kp F12
-&kp GRAVE  &kp LEFT_WIN  &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &trans    &bl BL_TOG  &bl BL_CYCLE  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF    &trans   &trans
-&kp LCTRL  &kp LEFT_ALT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans    &bt BT_CLR  &bt BT_PRV    &bt BT_NXT       &ext_power EP_TOG  &trans   &trans
-                                         &trans          &trans           &trans    &kp RET     &to 3         &kp RALT
+&kp F1     &kp F2        &kp F3          &kp F4          &kp F5           &kp F6     &kp F7      &kp F8        &kp F9           &kp F10            &kp F11  &kp F12
+&kp GRAVE  &kp LEFT_WIN  &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &kp TAB    &bl BL_TOG  &bl BL_CYCLE  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF    &trans   &trans
+&kp LCTRL  &kp LEFT_ALT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans     &bt BT_CLR  &bt BT_PRV    &bt BT_NXT       &ext_power EP_TOG  &trans   &trans
+                                         &trans          &trans           &trans     &kp RET     &to 3         &kp RALT
             >;
         };
 
@@ -111,9 +111,9 @@ LED_COLOR_ID_GREEN
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &trans        &kp N7        &kp N8        &kp N9        &kp RPAR          &kp BSPC
+&kp TAB    &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &trans        &kp N7        &kp N8        &kp N9        &trans            &kp BSPC
 &kp LCTRL  &trans    &trans  &trans    &trans    &trans       &trans        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp LSHFT  &trans    &trans  &trans    &trans    &trans       &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans            &trans
+&kp LSHFT  &trans    &trans  &trans    &trans    &trans       &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS         &kp EQUAL
                              &kp LGUI  &trans    &kp SPACE    &kp RET       &trans        &kp RALT
             >;
         };
