@@ -34,7 +34,7 @@ LED_COLOR_ID_GREEN
     };
 };
 
-&led_strip { chain-length = <21>; };
+&led_strip { chain-length = <28>; };
 
 &pwm0 {
     status = "okay";
