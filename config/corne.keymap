@@ -46,7 +46,7 @@
 
             bindings = <
 &kp F1     &kp F2        &kp F3          &kp F4          &kp F5           &kp F6     &kp F7      &kp F8        &kp F9           &kp F10            &kp F11          &kp F12
-&kp GRAVE  &kp LEFT_WIN  &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &kp TAB    &bl BL_TOG  &bl BL_CYCLE  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF    &rgb_ug RGB_BRI  &kp INS
+&kp GRAVE  &kp LEFT_WIN  &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &kp TAB    &bl BL_TOG  &bl BL_CYCLE  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF    &rgb_ug RGB_BRI  &sys_reset
 &kp LCTRL  &kp LEFT_ALT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans     &bt BT_CLR  &bt BT_PRV    &bt BT_NXT       &ext_power EP_TOG  &rgb_ug RGB_BRD  &rgb_ug RGB_HUI
                                          &trans          &trans           &trans     &kp RET     &to 3         &kp RALT
             >;
