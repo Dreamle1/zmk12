@@ -29,7 +29,6 @@
             , <&pro_micro 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
     };
-};{}}{}{}{}{{{{}{}}}}}}}}
 
 &i2c0 {
     status = "okay";
@@ -41,4 +40,5 @@
         width = <128>;
         height = <64>;
     };
+};
 };
