@@ -30,15 +30,15 @@
             ;
     };
 
-&i2c0 {
-    status = "okay";
+    &i2c0 {
+        status = "okay";
 
-    ssd1306: ssd1306@3c {
-        compatible = "solomon,ssd1306";
-        reg = <0x3c>;
-        label = "SSD1306";
-        width = <128>;
-        height = <64>;
+        ssd1306: ssd1306@3c {
+            compatible = "solomon,ssd1306";
+            reg = <0x3c>;
+            label = "SSD1306";
+            width = <128>;
+            height = <64>;
+        };
     };
-};
 };
